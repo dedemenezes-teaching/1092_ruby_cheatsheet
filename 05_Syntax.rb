@@ -14,6 +14,10 @@
 #  - to define an Hash
 #  - to inject active code in a String
 
+## METHOD RETURN ##
+# Usually we want our methods to return because after we call the method we can decide what to do with the return.
+# In the example above, we decided to print the return BUT we could do anything else.
+
 def greet(name)
   return "Hello #{name.capitalize}!"
 end
